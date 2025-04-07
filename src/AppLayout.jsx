@@ -37,9 +37,9 @@ const AppLayout=()=>{
     
     return(
 
-
-        <div className="h-screen w-screen overflow-auto flex flex-col bg-[#303030] ">
-        <div className="pl-16 pr-16 h-24 text-xl font-semibold text-white  mb-1 justify-between flex items-center shadow-md">
+      // bg-[#303030]
+        <div className="h-screen w-screen overflow-auto flex flex-col  ">
+        <div className="pl-16 pr-16 h-24 text-xl font-semibold text-white bg-[#303030] mb-1 justify-between flex items-center shadow-md">
           <div>
             <h1 className="text-[#F86200] text-xl font-bold">BlackGrapes</h1>
           </div>
