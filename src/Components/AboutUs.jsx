@@ -1,13 +1,14 @@
 import React from 'react'
 import Footer from "../Footer"
+import about from "./Images/about.png"
 const AboutUs = () => {
   return (
     <div>
-      <div>
+        <div className='Ml[10%] mr[10%]'>
         <h1 className='text-center text-5xl text-black'>About US</h1>
 
-        <div>
-          <img src="" alt="" />
+             <div className='flex justify-between'>
+          <img className='h-[300px] w-[300px]' src={about} alt="" />
           <div>
             <h1>Vision</h1>
             <h2>Empowering Tomorrow Through Innovative Code
